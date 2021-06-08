@@ -30,7 +30,7 @@ header {
 
 #header-text span {
   color: #ecdcb0;
-  font-size: 48px;
+  font-size: 50px;
 }
 
 #title-img {
@@ -146,4 +146,13 @@ header {
   text-align: center;
   text-decoration: none;
   box-shadow: 2px 2px 3px #000000;
+  transition: all 0.2ms ease;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.project-card a:hover {
+  background-color: gold;
 }
