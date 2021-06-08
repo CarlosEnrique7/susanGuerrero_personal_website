@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #103067;
+  padding: 16px;
+  width: 100vw;
+}
+
+#header-text {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 32px;
+  color: #7ca5b8;
+  font-weight: bold;
+}
+
+#header-text p {
+  margin-top: 16px;
+  color: #7ca5b8;
+}
+
+#header-text span {
+  color: #ecdcb0;
+  font-size: 48px;
+}
+
+#title-img {
+  height: 30vh;
+}
+
+#resume-btn {
+  background-color: #ecdcb0;
+  margin: 24px;
+  width: 150px;
+  height: 32px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #333138;
+}
+
+#about-me,
+#portfolio {
+  padding-top: 32px;
+}
+
+#about-me {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  background: linear-gradient(#103067, #333138);
+  align-items: center;
+}
+
+#main-about,
+#interests {
+  display: flex;
+  height: 10vh;
+  width: 75vw;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #ecdcb0;
+}
+
+.underline-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  padding: 2px;
+  width: 200px;
+  height: 3px;
+  background: #ecdcb0;
+  display: block;
+  text-align: center;
+}
+
+#portfolio {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 00, 0.5)),
+    url(./images/background-image.jpeg) center/cover no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.project-img {
+  height: 200px;
+  width: 250px;
+  border: 3px solid #ecdcb0;
+  border-radius: 10px;
+  align-content: center;
+  margin: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px;
+}
+
+.col p {
+  text-align: center;
+}
+
+.project-card {
+  height: 30vh;
+  margin-bottom: 64px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background: linear-gradient(rgba(124, 165, 184, 0.6), rgba(124, 165, 184, 0.3));
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.project-card a {
+  background-color: #ecdcb0;
+  margin: 16px;
+  width: 128px;
+  height: 24px;
+  border-radius: 10px;
+  line-height: 1.42;
+  font-weight: bold;
+  color: #333138;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 2px 2px 3px #000000;
+}
