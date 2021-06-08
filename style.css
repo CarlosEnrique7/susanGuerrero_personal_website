@@ -3,7 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* nav */
+nav ul {
+  list-style-type: none;
+  padding: 2px;
+  overflow: hidden;
+  background: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+nav li {
+  float: left;
+  font-size: 20px;
+}
+
+nav #social {
+  float: right;
+}
+
+nav a {
+  display: block;
+  color: #7ca5b8;
+  text-align: left;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: aqua;
+  background-color: dimgray;
+}
+
+/* end of nav */
 header {
   display: flex;
   justify-content: flex-start;
